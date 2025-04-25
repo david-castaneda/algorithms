@@ -1,0 +1,78 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "WordMapping2D",
+            "request": "launch",
+            "mainClass": "leetcode.WordMapping2D",
+            "projectName": "coding-problems_8abc102c"
+        },
+        {
+            "type": "java",
+            "name": "TreeDFS",
+            "request": "launch",
+            "mainClass": "templates.TreeDFS",
+            "projectName": "coding-problems_8abc102c"
+        },
+        {
+            "type": "java",
+            "name": "TreeBFS",
+            "request": "launch",
+            "mainClass": "templates.TreeBFS",
+            "projectName": "coding-problems_8abc102c"
+        },
+        {
+            "type": "java",
+            "name": "ValidParentheses_20",
+            "request": "launch",
+            "mainClass": "leetcode.ValidParentheses_20",
+            "projectName": "coding-problems_8abc102c"
+        },
+        {
+            "type": "java",
+            "name": "TTrie",
+            "request": "launch",
+            "mainClass": "templates.TTrie",
+            "projectName": "coding-problems_8abc102c"
+        },
+        {
+            "type": "java",
+            "name": "TQueue",
+            "request": "launch",
+            "mainClass": "templates.TQueue",
+            "projectName": "coding-problems_8abc102c"
+        },
+        {
+            "type": "java",
+            "name": "Stack",
+            "request": "launch",
+            "mainClass": "templates.Stack",
+            "projectName": "coding-problems_8abc102c"
+        },
+        {
+            "type": "java",
+            "name": "Solution",
+            "request": "launch",
+            "mainClass": "templates.Solution",
+            "projectName": "coding-problems_8abc102c"
+        },
+        {
+            "type": "java",
+            "name": "SelectionSort",
+            "request": "launch",
+            "mainClass": "ik.SelectionSort",
+            "projectName": "coding-problems_8abc102c"
+        },
+        {
+            "type": "java",
+            "name": "TwoSum_1",
+            "request": "launch",
+            "mainClass": "leetcode.TwoSum_1",
+            "projectName": "coding-problems_8abc102c",
+            "args": [
+                "-ea"
+            ]
+        }
+    ]
+}
