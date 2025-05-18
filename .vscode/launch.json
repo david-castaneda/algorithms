@@ -3,6 +3,13 @@
   "configurations": [
     {
       "type": "java",
+      "name": "TGraph",
+      "request": "launch",
+      "mainClass": "templates.TGraph",
+      "projectName": "coding-problems_8abc102c"
+    },
+    {
+      "type": "java",
       "name": "KthLargest",
       "request": "launch",
       "mainClass": "leetcode.KthLargest",
