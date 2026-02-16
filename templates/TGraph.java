@@ -3,8 +3,10 @@ package templates;
 import java.util.ArrayList;
 import java.util.Collections;
 import java.util.HashMap;
+import java.util.HashSet;
 import java.util.List;
 import java.util.Map;
+import java.util.Set;
 
 class Node {
 
@@ -54,7 +56,16 @@ class Node {
         }
 
         return result;
+    }
 
+    public List<Integer> getNeighbors() {
+        Set<Integer> result = new HashSet<>();
+
+        for (Edge e : this.edges.values()) {
+            result.add(e.toNode);
+        }
+
+        return new ArrayList<>(result);
     }
 }
 
