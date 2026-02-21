@@ -3,6 +3,8 @@ package leetcode;
 import java.util.HashSet;
 import java.util.Set;
 
+// https://leetcode.com/problems/contains-duplicate/description/
+//
 // Time: O(n)
 // Space: O(1)
 // Intuition: Keep track of seen elements using a set
