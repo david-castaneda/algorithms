@@ -5,7 +5,7 @@ package leetcode;
 // Time: O(n + m)
 // Space: O(n + m)
 // Intuition: Use a string builder, avoid string copies which would make the solution quadratic.
-public class MergeStringAlternatively_1768 {
+public class MergeStringsAlternatively_1768 {
 
     public static void main(String[] args) {
         String word1 = "abc";
