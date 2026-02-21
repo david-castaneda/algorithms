@@ -1,4 +1,4 @@
-package templates;
+package trees;
 
 import java.util.ArrayDeque;
 import java.util.Queue;
@@ -20,8 +20,8 @@ import java.util.Queue;
  * - Queue (FIFO): BFS uses a queue to keep track of which node to visit next.
  * - Visited set: To avoid visiting the same node multiple times.
  */
-
 class TreeNode {
+
     int value;
     TreeNode left, right;
 
@@ -30,15 +30,13 @@ class TreeNode {
     }
 }
 
-public class TreeBFS {
+public class BFS {
 
     public static void main(String[] args) {
         /**
-         * Example tree:
-         * __________1_________
-         * _______2______3_____
+         * Example tree: __________1_________ _______2______3_____
          * _____4___5__6___7___
-         * 
+         *
          * Expected traversal: 1 -> 2 -> 3 -> 4 -> 5 -> 6 -> 7
          */
         TreeNode root = new TreeNode(1);

@@ -1,4 +1,4 @@
-package templates;
+package graphs;
 
 import java.util.ArrayList;
 import java.util.Collections;
@@ -185,7 +185,7 @@ class Graph {
     }
 }
 
-public class TGraph {
+public class GraphTemplate {
 
     public static void main(String[] args) {
         Graph g = new Graph(5, false);

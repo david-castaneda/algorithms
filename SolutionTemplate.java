@@ -1,5 +1,4 @@
-// You will need to provide a package name (usually folder name) like the one below.
-package templates;
+// You will need to provide a package name (usually folder name).
 
 public class SolutionTemplate {
 

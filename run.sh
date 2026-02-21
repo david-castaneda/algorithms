@@ -1,7 +1,7 @@
 #
 # To run a solution using this script:
 # 1. Ensure the correct permissions to this file: $ chmod +x run.sh
-# 2. Execute: ./run.sh ./leetcode/TwoSum_1.java
+# 2. Execute: ./run.sh ./trees/BFS.java
 #
 
 #!/bin/bash

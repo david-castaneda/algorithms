@@ -1,5 +1,4 @@
 // You will need to provide a package name (usually folder name) like the one below.
-package templates;
 
 import java.util.ArrayDeque;
 import java.util.Deque;
@@ -9,14 +8,11 @@ import java.util.Deque;
 // track of data, memory stacks, browser history, undo/redo,
 // backtracking, syntax parsing, string reversals, parentheses matching,
 // task management, and serves as a foundation for implementing algorithms.
-
 // Prefer using `Deque` instead of `Stack` class in Java.
-
 // Must know operations:
 // push/addFirst: O(1) - push an element to the top of the stack
 // pop/removeFirst: O(1) - remove an element from the top of the stack
 // peek/peekFirst: O(1) - view the element at the top of the stack
-
 public class Stack {
 
     // A `main` function is required.

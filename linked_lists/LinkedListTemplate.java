@@ -1,4 +1,4 @@
-package templates;
+package linked_lists;
 
 class ListNode<T> {
 
@@ -13,6 +13,7 @@ class ListNode<T> {
 }
 
 class LinkedList<T> {
+
     ListNode<T> head = null;
     ListNode<T> tail = null;
 
@@ -71,7 +72,7 @@ class LinkedList<T> {
 
 }
 
-public class TLinkedList {
+public class LinkedListTemplate {
 
     public static void main(String[] args) {
         LinkedList<Integer> ll = new LinkedList<>();

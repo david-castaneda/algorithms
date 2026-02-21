@@ -1,17 +1,15 @@
-package templates;
+package trees;
 
 /**
  * Depth-First Search (DFS) is used to explore edges and nodes of a graph.
  * Starting at the root, explores as far as possible along a branch before
  * backtracking — like going deep down a path before checking the next.
- * 
- * Types of traversals:
- * - Pre-order (root, left, right)
- * - Post-order (left, right, root)
- * - In-order (left, root, right)
+ *
+ * Types of traversals: - Pre-order (root, left, right) - Post-order (left,
+ * right, root) - In-order (left, root, right)
  */
-
 class TreeNode {
+
     int value;
     TreeNode left, right;
 
@@ -20,18 +18,15 @@ class TreeNode {
     }
 }
 
-public class TreeDFS {
+public class DFS {
 
     public static void main(String[] args) {
         /**
-         * Example tree:
-         * __________1_________
-         * _______2______3_____
+         * Example tree: __________1_________ _______2______3_____
          * _____4___5__6___7___
-         * 
-         * Pre-order: 1 -> 2 -> 4 -> 5 -> 3 -> 6 -> 7
-         * Post-order: 4 -> 5 -> 2 -> 6 -> 7 -> 3 -> 1
-         * In-order: 4 -> 2 -> 5 -> 1 -> 6 -> 3 -> 7
+         *
+         * Pre-order: 1 -> 2 -> 4 -> 5 -> 3 -> 6 -> 7 Post-order: 4 -> 5 -> 2 ->
+         * 6 -> 7 -> 3 -> 1 In-order: 4 -> 2 -> 5 -> 1 -> 6 -> 3 -> 7
          */
         TreeNode root = new TreeNode(1);
         root.left = new TreeNode(2);

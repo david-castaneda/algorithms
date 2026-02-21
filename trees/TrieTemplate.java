@@ -1,11 +1,13 @@
-package templates;
+package trees;
 
 class TrieNode {
+
     TrieNode[] children = new TrieNode[26];
     boolean endOfWord = false;
 }
 
 class Trie {
+
     private final TrieNode root;
 
     Trie() {
@@ -62,7 +64,7 @@ class Trie {
     }
 }
 
-public class TTrie {
+public class TrieTemplate {
 
     TrieNode root;
 

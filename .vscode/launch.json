@@ -3,6 +3,33 @@
   "configurations": [
     {
       "type": "java",
+      "name": "Stack",
+      "request": "launch",
+      "mainClass": "Stack",
+      "projectName": "algorithms_71e27d4f"
+    },
+    {
+      "type": "java",
+      "name": "GraphTemplate",
+      "request": "launch",
+      "mainClass": "templates.GraphTemplate"
+    },
+    {
+      "type": "java",
+      "name": "Backtracking",
+      "request": "launch",
+      "mainClass": "templates.Backtracking",
+      "projectName": "coding-problems_8abc102c"
+    },
+    {
+      "type": "java",
+      "name": "LRU",
+      "request": "launch",
+      "mainClass": "templates.LRU",
+      "projectName": "coding-problems_8abc102c"
+    },
+    {
+      "type": "java",
       "name": "TGraph",
       "request": "launch",
       "mainClass": "templates.TGraph",

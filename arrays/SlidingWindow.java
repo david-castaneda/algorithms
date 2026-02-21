@@ -1,4 +1,4 @@
-package templates;
+package arrays;
 
 public class SlidingWindow {
 

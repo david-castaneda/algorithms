@@ -1,9 +1,9 @@
-package templates;
 
 import java.util.HashMap;
 import java.util.Map;
 
 class LRUNode<K, V> {
+
     K key;
     V value;
     LRUNode<K, V> next;

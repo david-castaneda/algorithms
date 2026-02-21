@@ -1,12 +1,11 @@
-package templates;
 
 import java.util.ArrayDeque;
-import java.util.Queue;
+import java.util.Deque;
 
-public class TQueue {
+public class Queue {
 
     public static void main(String[] args) {
-        Queue<String> queue = new ArrayDeque<>();
+        Deque<String> queue = new ArrayDeque<>();
 
         queue.offer("banana");
         queue.offer("apples");

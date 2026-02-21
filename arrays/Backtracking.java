@@ -1,4 +1,4 @@
-package templates;
+package arrays;
 
 import java.util.ArrayList;
 import java.util.List;
