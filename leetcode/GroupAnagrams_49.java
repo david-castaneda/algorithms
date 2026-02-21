@@ -9,7 +9,7 @@ import java.util.Map;
 // https://leetcode.com/problems/group-anagrams/
 //
 // Time: O(n)
-// Time: O(n)
+// Space: O(n)
 // Intuition: Sort each word, use the sorted word as the key in a map.
 // The value will be a list of every string that maps to the sorted key.
 public class GroupAnagrams_49 {
