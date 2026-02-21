@@ -6,4 +6,4 @@ Example: `./run.sh ./trees/BFS.java`
 
 Known working versions: (`java --version`)
 
-- `java 17.0.7 2023-04-18 LTS``
+- `java 17.0.7 2023-04-18 LTS`
