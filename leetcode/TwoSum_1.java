@@ -1,23 +1,35 @@
 package leetcode;
 
-import java.util.List;
+import java.util.Arrays;
+import java.util.HashMap;
+import java.util.Map;
 
 /**
- * Given an array of integers `nums` and an integer `target`,
- * return indices of the two numbers such that they add up to target.
+ * Given an array of integers `nums` and an integer `target`, return indices of
+ * the two numbers such that they add up to target.
  */
 public class TwoSum_1 {
 
-    static List<Integer> nums = List.of(1, 2, 3);
-    static Integer target = 2;
-
     public static void main(String[] args) {
-        List<Integer> result = solve(nums, target);
-        System.out.println(result.size());
-        assert result.size() == 2 : "Array length is not 2.";
+        int[] nums = new int[]{1, 2, 1, 3, 10, 5};
+        int target = 8;
+
+        int[] result = solve(nums, target);
+
+        System.out.println(Arrays.toString(result));
     }
 
-    static List<Integer> solve(List<Integer> nums, Integer target) {
-        return List.of(1, 2, 3);
+    static int[] solve(int[] nums, int target) {
+        Map<Integer, Integer> map = new HashMap<>();
+
+        for (int i = 0; i < nums.length; i++) {
+            if (map.containsKey(nums[i])) {
+                return new int[]{map.get(nums[i]), i};
+            }
+            int dif = target - nums[i];
+            map.put(dif, i);
+        }
+
+        return new int[]{};
     }
 }

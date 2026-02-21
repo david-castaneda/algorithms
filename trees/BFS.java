@@ -33,12 +33,6 @@ class TreeNode {
 public class BFS {
 
     public static void main(String[] args) {
-        /**
-         * Example tree: __________1_________ _______2______3_____
-         * _____4___5__6___7___
-         *
-         * Expected traversal: 1 -> 2 -> 3 -> 4 -> 5 -> 6 -> 7
-         */
         TreeNode root = new TreeNode(1);
         root.left = new TreeNode(2);
         root.right = new TreeNode(3);
@@ -50,7 +44,7 @@ public class BFS {
         bfs(root);
     }
 
-    public static void bfs(TreeNode root) {
+    static void bfs(TreeNode root) {
         Queue<TreeNode> queue = new ArrayDeque<>();
 
         queue.add(root); // enqueue the root

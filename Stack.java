@@ -5,7 +5,7 @@ import java.util.Deque;
 
 // A stack is a LIFO (last-in-first-out) data structure.
 // It is simple and commonly used for things like keeping
-// track of data, memory stacks, browser history, undo/redo,
+// track of data, memory stacks, browser history, undo/redo, 
 // backtracking, syntax parsing, string reversals, parentheses matching,
 // task management, and serves as a foundation for implementing algorithms.
 // Prefer using `Deque` instead of `Stack` class in Java.

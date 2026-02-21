@@ -66,8 +66,6 @@ class Trie {
 
 public class TrieTemplate {
 
-    TrieNode root;
-
     public static void main(String[] args) {
         Trie trie = new Trie();
 

@@ -21,13 +21,6 @@ class TreeNode {
 public class DFS {
 
     public static void main(String[] args) {
-        /**
-         * Example tree: __________1_________ _______2______3_____
-         * _____4___5__6___7___
-         *
-         * Pre-order: 1 -> 2 -> 4 -> 5 -> 3 -> 6 -> 7 Post-order: 4 -> 5 -> 2 ->
-         * 6 -> 7 -> 3 -> 1 In-order: 4 -> 2 -> 5 -> 1 -> 6 -> 3 -> 7
-         */
         TreeNode root = new TreeNode(1);
         root.left = new TreeNode(2);
         root.right = new TreeNode(3);
@@ -46,7 +39,7 @@ public class DFS {
         inOrder(root);
     }
 
-    public static void preOrder(TreeNode node) {
+    static void preOrder(TreeNode node) {
         System.out.println("Visited: " + node.value);
         if (node.left != null) {
             preOrder(node.left);
@@ -56,7 +49,7 @@ public class DFS {
         }
     }
 
-    public static void postOrder(TreeNode node) {
+    static void postOrder(TreeNode node) {
         if (node.left != null) {
             postOrder(node.left);
         }
@@ -66,7 +59,7 @@ public class DFS {
         System.out.println("Visited: " + node.value);
     }
 
-    public static void inOrder(TreeNode node) {
+    static void inOrder(TreeNode node) {
         if (node.left != null) {
             inOrder(node.left);
         }
