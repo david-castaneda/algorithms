@@ -17,6 +17,16 @@ Algorithms and data structures collected over time.
 
 - [MST of a Graph - Prims Algorithm](https://www.geeksforgeeks.org/dsa/prims-minimum-spanning-tree-mst-greedy-algo-5/)
 
+### Java APIs
+
+| Task                            | API                                                    | Example                                                                 | Notes                                                                                           |
+| ------------------------------- | ------------------------------------------------------ | ----------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------- |
+| Sort an array (ascending)       | `Arrays.sort(...)`                                     | `int[] a = {3,1,2}; Arrays.sort(a);`                                    | Primitives sort ascending. For objects, you can pass a `Comparator`.                            |
+| Binary search in a sorted array | `Arrays.binarySearch(...)`                             | `int i = Arrays.binarySearch(a, target);`                               | Array must be sorted. Returns index if found, otherwise `-(insertionPoint) - 1`.                |
+| Sort a string (lexicographic)   | `toCharArray()`, `Arrays.sort(...)`, `new String(...)` | `char[] c = s.toCharArray(); Arrays.sort(c); String t = new String(c);` | Sorts by Unicode code point. Use `s.toLowerCase()` first if you want case-insensitive behavior. |
+| Integer min/max value           | `Integer.MIN_VALUE`, `Integer.MAX_VALUE`               | `int lo = Integer.MIN_VALUE, hi = Integer.MAX_VALUE;`                   | Useful as sentinels and bounds in algorithms.                                                   |
+| Double infinity                 | `Double.POSITIVE_INFINITY`, `Double.NEGATIVE_INFINITY` | `double inf = Double.POSITIVE_INFINITY;`                                | Also: `Double.isInfinite(x)` to check.                                                          |
+
 ### Running the solutions
 
 There is a helper file `run.sh` that will compile and run the java solution.
