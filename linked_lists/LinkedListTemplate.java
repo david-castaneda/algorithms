@@ -19,6 +19,10 @@ class LinkedList<T> {
 
     void add(T value) {
         ListNode<T> node = new ListNode<>(value);
+        addNode(node);
+    }
+
+    void addNode(ListNode<T> node) {
         if (head == null) {
             this.head = node;
             this.tail = node;
