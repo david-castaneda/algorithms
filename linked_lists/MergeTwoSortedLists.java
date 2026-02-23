@@ -15,10 +15,10 @@ public class MergeTwoSortedLists {
         list2.add(4);
         list2.add(6);
 
-        ListNode<Integer> p1 = list1.head;
-        ListNode<Integer> p2 = list2.head;
         ListNode<Integer> dummy = new ListNode<>(null);
         ListNode<Integer> cur = dummy;
+        ListNode<Integer> p1 = list1.head;
+        ListNode<Integer> p2 = list2.head;
 
         while (p1 != null && p2 != null) {
             if (p1.value < p2.value) {
