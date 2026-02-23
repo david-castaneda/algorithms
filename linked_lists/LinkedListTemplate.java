@@ -55,7 +55,7 @@ class LinkedList<T> {
         }
     }
 
-    void print() {
+    void print(ListNode<T> head) {
         ListNode<T> curr = head;
         if (curr == null) {
             System.out.println("[]");
@@ -82,23 +82,23 @@ public class LinkedListTemplate {
         ll.add(4);
         System.out.println("Node: " + ll.find(3));
         System.out.println("Node: " + ll.find(5));
-        ll.print();
+        ll.print(ll.head);
         ll.delete(1);
-        ll.print();
+        ll.print(ll.head);
         ll.delete(2);
-        ll.print();
+        ll.print(ll.head);
         ll.delete(3);
-        ll.print();
+        ll.print(ll.head);
         ll.delete(4);
-        ll.print();
+        ll.print(ll.head);
         ll.add(10);
         ll.add(11);
         ll.add(12);
         ll.add(13);
         ll.add(14);
         ll.add(15);
-        ll.print();
+        ll.print(ll.head);
         ll.delete(14);
-        ll.print();
+        ll.print(ll.head);
     }
 }
