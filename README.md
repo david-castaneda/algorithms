@@ -1,5 +1,39 @@
 Algorithms and data structures collected over time.
 
+### Python Examples
+
+#### Stack (LIFO data structure)
+
+- insert (push): \*O(1) amortized
+- peek: O(1)
+- pop: O(1)
+
+```python
+stack = [] # list used as a stack
+stack.append(1) # push to end
+stack[-1] # peek
+stack.pop() # prop from end
+```
+
+- Queue (FIFO data structure)
+
+Best practice: Use `collections.deque`
+
+- insert (enqueue): O(1)
+- peek: O(1)
+- pop: O(1)
+
+```python
+from collections import deque
+
+q = deque()
+q.append(1) # enqueue right
+q[0] # peek front (left)
+q.popleft() # dequeue left
+```
+
+---
+
 ### Java Docs
 
 - [String](https://docs.oracle.com/javase/8/docs/api/java/lang/String.html)
