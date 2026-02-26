@@ -1,6 +1,17 @@
 Algorithms and data structures collected over time.
 
-### Python Examples
+## Algorithms
+
+- [MST of a Graph - Prims Algorithm](https://www.geeksforgeeks.org/dsa/prims-minimum-spanning-tree-mst-greedy-algo-5/)
+- [Shortest Path - Dijkstra's](https://www.geeksforgeeks.org/dsa/dijkstras-shortest-path-algorithm-greedy-algo-7/)
+- [Manhattan Distance](https://www.geeksforgeeks.org/data-science/manhattan-distance/)
+
+### Must Read
+
+- https://www.techinterviewhandbook.org
+-
+
+## Python Examples
 
 #### Stack (LIFO data structure)
 
@@ -13,9 +24,13 @@ stack = [] # list used as a stack
 stack.append(1) # push to end
 stack[-1] # peek
 stack.pop() # prop from end
+
+# Check if stack is empty
+if stack:
+    print("Not empty")
 ```
 
-- Queue (FIFO data structure)
+#### Queue (FIFO data structure)
 
 Best practice: Use `collections.deque`
 
@@ -30,11 +45,15 @@ q = deque()
 q.append(1) # enqueue right
 q[0] # peek front (left)
 q.popleft() # dequeue left
+
+# Check if queue is empty
+if q:
+    print("Not empty")
 ```
 
 ---
 
-### Java Docs
+## Java Examples
 
 - [String](https://docs.oracle.com/javase/8/docs/api/java/lang/String.html)
 - [Character](https://docs.oracle.com/javase/8/docs/api/java/lang/Character.html)
@@ -47,10 +66,6 @@ q.popleft() # dequeue left
 - [Iterator](https://docs.oracle.com/javase/8/docs/api/java/util/Iterator.html)
 - [TreeMap](https://docs.oracle.com/javase/8/docs/api/java/util/TreeMap.html)
 
-### Algorithms
-
-- [MST of a Graph - Prims Algorithm](https://www.geeksforgeeks.org/dsa/prims-minimum-spanning-tree-mst-greedy-algo-5/)
-
 ### Java APIs
 
 | Task                            | API                                                    | Example                                                                 | Notes                                                                                           |
@@ -60,13 +75,3 @@ q.popleft() # dequeue left
 | Sort a string (lexicographic)   | `toCharArray()`, `Arrays.sort(...)`, `new String(...)` | `char[] c = s.toCharArray(); Arrays.sort(c); String t = new String(c);` | Sorts by Unicode code point. Use `s.toLowerCase()` first if you want case-insensitive behavior. |
 | Integer min/max value           | `Integer.MIN_VALUE`, `Integer.MAX_VALUE`               | `int lo = Integer.MIN_VALUE, hi = Integer.MAX_VALUE;`                   | Useful as sentinels and bounds in algorithms.                                                   |
 | Double infinity                 | `Double.POSITIVE_INFINITY`, `Double.NEGATIVE_INFINITY` | `double inf = Double.POSITIVE_INFINITY;`                                | Also: `Double.isInfinite(x)` to check.                                                          |
-
-### Running the solutions
-
-There is a helper file `run.sh` that will compile and run the java solution.
-
-Example: `./run.sh ./trees/BFS.java`
-
-Known working versions: (`java --version`)
-
-- `java 17.0.7 2023-04-18 LTS`
