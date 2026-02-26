@@ -6,11 +6,6 @@ Algorithms and data structures collected over time.
 - [Shortest Path - Dijkstra's](https://www.geeksforgeeks.org/dsa/dijkstras-shortest-path-algorithm-greedy-algo-7/)
 - [Manhattan Distance](https://www.geeksforgeeks.org/data-science/manhattan-distance/)
 
-### Must Read
-
-- https://www.techinterviewhandbook.org
--
-
 ## Python Examples
 
 #### Stack (LIFO data structure)
@@ -53,7 +48,7 @@ if q:
 
 ---
 
-## Java Examples
+## Java APIs
 
 - [String](https://docs.oracle.com/javase/8/docs/api/java/lang/String.html)
 - [Character](https://docs.oracle.com/javase/8/docs/api/java/lang/Character.html)
@@ -65,8 +60,6 @@ if q:
 - [Deque](https://docs.oracle.com/javase/8/docs/api/java/util/Deque.html)
 - [Iterator](https://docs.oracle.com/javase/8/docs/api/java/util/Iterator.html)
 - [TreeMap](https://docs.oracle.com/javase/8/docs/api/java/util/TreeMap.html)
-
-### Java APIs
 
 | Task                            | API                                                    | Example                                                                 | Notes                                                                                           |
 | ------------------------------- | ------------------------------------------------------ | ----------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------- |
