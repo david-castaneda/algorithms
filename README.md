@@ -8,6 +8,12 @@ Algorithms and data structures collected over time.
 
 ## Python Examples
 
+- [Sliding Window](/arrays/sliding_window.ipynb)
+- [Linked List](./linked_lists/0_linked_list.ipynb)
+- [Trees](./trees/0_trees.ipynb)
+- [Binary Search Tree (BST)](./trees/0_bst.ipynb)
+- [Heaps](./heaps.ipynb)
+
 #### Stack (LIFO data structure)
 
 - insert (push): \*O(1) amortized
