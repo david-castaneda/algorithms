@@ -1,6 +1,6 @@
 import heapq
 
-#  Time: O(nlogk)
+# Time: O(nlogk)
 # Space: O(k)
 # Intuition: Use a min heap of size k.
 class Solution:
@@ -8,11 +8,11 @@ class Solution:
     def findKthLargest(self, nums, k):
         min_heap = [] # keep size k
     
-        for n in nums: # O(n)
+        for num in nums: # O(n)
             if len(min_heap) < k:
-                heapq.heappush(min_heap, n) # O(logk)
+                heapq.heappush(min_heap, num) # O(logk)
             else:
-                heapq.heappush(min_heap, n) # O(logk)    
+                heapq.heappush(min_heap, num) # O(logk)    
                 heapq.heappop(min_heap) # O(logk)
         
         return min_heap[0]
