@@ -5,6 +5,7 @@ Algorithms and data structures collected over time.
 - [MST of a Graph - Prims Algorithm](https://www.geeksforgeeks.org/dsa/prims-minimum-spanning-tree-mst-greedy-algo-5/)
 - [Shortest Path - Dijkstra's](https://www.geeksforgeeks.org/dsa/dijkstras-shortest-path-algorithm-greedy-algo-7/)
 - [Manhattan Distance](https://www.geeksforgeeks.org/data-science/manhattan-distance/)
+- [Boyer Moore Pattern Searching](https://www.geeksforgeeks.org/dsa/boyer-moore-algorithm-for-pattern-searching/)
 
 ## Python Examples
 
