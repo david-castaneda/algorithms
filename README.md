@@ -10,49 +10,13 @@ Algorithms and data structures collected over time.
 ## Python Examples
 
 - [Sliding Window](/arrays/sliding_window.ipynb)
+- [Queues](./queue.ipynb)
+- [Stacks](./stack.ipynb)
 - [Linked List](./linked_lists/0_linked_list.ipynb)
 - [Trees](./trees/0_trees.ipynb)
 - [Binary Search Tree (BST)](./trees/0_bst.ipynb)
 - [Heaps](./heaps.ipynb)
 - [Backtracking, Permutations](./backtracking.ipynb)
-
-#### Stack (LIFO data structure)
-
-- insert (push): \*O(1) amortized
-- peek: O(1)
-- pop: O(1)
-
-```python
-stack = [] # list used as a stack
-stack.append(1) # push to end
-stack[-1] # peek
-stack.pop() # prop from end
-
-# Check if stack is empty
-if stack:
-    print("Not empty")
-```
-
-#### Queue (FIFO data structure)
-
-Best practice: Use `collections.deque`
-
-- insert (enqueue): O(1)
-- peek: O(1)
-- pop: O(1)
-
-```python
-from collections import deque
-
-q = deque()
-q.append(1) # enqueue right
-q[0] # peek front (left)
-q.popleft() # dequeue left
-
-# Check if queue is empty
-if q:
-    print("Not empty")
-```
 
 ---
 
