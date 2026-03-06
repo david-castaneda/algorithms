@@ -9,6 +9,7 @@ Algorithms and data structures collected over time.
 
 ## Python Examples
 
+- [Two Pointer](./two_pointer.ipynb)
 - [Sliding Window](/arrays/sliding_window.ipynb)
 - [Queues](./queue.ipynb)
 - [Stacks](./stack.ipynb)
@@ -17,8 +18,6 @@ Algorithms and data structures collected over time.
 - [Binary Search Tree (BST)](./trees/0_bst.ipynb)
 - [Heaps](./heaps.ipynb)
 - [Backtracking, Permutations](./backtracking.ipynb)
-
----
 
 ## Java APIs
 
