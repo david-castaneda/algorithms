@@ -9,8 +9,8 @@ Algorithms and data structures collected over time.
 
 ## Python Examples
 
-- [Two Pointer](./two_pointer.ipynb)
-- [Sliding Window](/arrays/sliding_window.ipynb)
+- [Two Pointer](./arrays/two_pointer.ipynb)
+- [Sliding Window](./arrays/sliding_window.ipynb)
 - [Queues](./queue.ipynb)
 - [Stacks](./stack.ipynb)
 - [Linked List](./linked_lists/0_linked_list.ipynb)
