@@ -7,7 +7,7 @@ class TreeNode:
         
 # Time: O(n)
 # Space: O(n)
-# Inutuition: Use DFS with global max diameter value. Calculate keft and right at each
+# Inutuition: Use DFS with global max diameter value. Calculate left and right at each
 # step of the recursion.
 class Solution:
     def diameterOfBinaryTree(self, root):
