@@ -5,9 +5,8 @@ class Solution:
     def searchMatrix(self, matrix, target):
         m = len(matrix)
         n = len(matrix[0])
-        t = m * n
         l = 0
-        r = t - 1
+        r = m * n - 1
         
         while l <= r:
             mid = (l + r) // 2
