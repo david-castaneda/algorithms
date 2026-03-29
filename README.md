@@ -17,7 +17,7 @@ Algorithms and data structures collected over time.
 - [Trees](./trees/0_trees.ipynb)
 - [Binary Search Tree (BST)](./trees/0_bst.ipynb)
 - [Heaps](./heaps.ipynb)
-- [Backtracking, Permutations](./backtracking.ipynb)
+- [Backtracking, Subsets, Permutations](./backtracking.ipynb)
 
 ## Java APIs
 
