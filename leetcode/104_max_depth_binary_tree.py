@@ -32,7 +32,7 @@ class Solution:
         
         return count
     
-    def iterativeMaxDepth(self, root):
+    def stackMaxDepth(self, root):
         def dfs(node):
             if not node:
                 return 0
