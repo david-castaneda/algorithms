@@ -1,12 +1,5 @@
 Algorithms and data structures collected over time.
 
-## Algorithms
-
-- [MST of a Graph - Prims Algorithm](https://www.geeksforgeeks.org/dsa/prims-minimum-spanning-tree-mst-greedy-algo-5/)
-- [Shortest Path - Dijkstra's](https://www.geeksforgeeks.org/dsa/dijkstras-shortest-path-algorithm-greedy-algo-7/)
-- [Manhattan Distance](https://www.geeksforgeeks.org/data-science/manhattan-distance/)
-- [Boyer Moore Pattern Searching](https://www.geeksforgeeks.org/dsa/boyer-moore-algorithm-for-pattern-searching/)
-
 ## Python Examples
 
 - [Two Pointer](./arrays/two_pointer.ipynb)
@@ -18,6 +11,38 @@ Algorithms and data structures collected over time.
 - [Binary Search Tree (BST)](./trees/0_bst.ipynb)
 - [Heaps](./heaps.ipynb)
 - [Backtracking, Subsets, Permutations](./backtracking.ipynb)
+- [Graphs](./graphs.ipynb)
+
+## Algorithms
+
+- [MST of a Graph - Prims Algorithm](https://www.geeksforgeeks.org/dsa/prims-minimum-spanning-tree-mst-greedy-algo-5/)
+- [Shortest Path - Dijkstra's](https://www.geeksforgeeks.org/dsa/dijkstras-shortest-path-algorithm-greedy-algo-7/)
+- [Manhattan Distance](https://www.geeksforgeeks.org/data-science/manhattan-distance/)
+- [Boyer Moore Pattern Searching](https://www.geeksforgeeks.org/dsa/boyer-moore-algorithm-for-pattern-searching/)
+
+## Concepts / Data Structures / Patterns
+
+- Big O
+- Arrays & Strings
+- Hashmaps & Hashsets
+- Two Pointers
+- Binary Search
+- Linked Search
+- Stacks & Queues
+- Sliding Window
+- Recursion
+- Trees
+- Heaps / Priority Queues
+- Backtracking
+- Graphs
+- Dynamic Programming
+
+## Cheat sheet
+
+### Common numbers
+
+- 26 - alphabet
+- 52 - alphabet capitalized
 
 ## Java APIs
 
