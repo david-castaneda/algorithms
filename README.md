@@ -44,6 +44,8 @@ Algorithms and data structures collected over time.
 - 26 - alphabet
 - 52 - alphabet capitalized
 
+ASCII - https://www.ascii-code.com/
+
 ## Java APIs
 
 - [String](https://docs.oracle.com/javase/8/docs/api/java/lang/String.html)
