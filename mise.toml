@@ -1,0 +1,9 @@
+[tools]
+cmake = "3.31"
+
+[tasks.configure]
+run = "cmake -S . -B build"
+
+[tasks.build-and-run]
+usage = 'arg "<problem>"'
+run = 'cmake --build build --target run-$(basename "${usage_problem}" .cpp)'
