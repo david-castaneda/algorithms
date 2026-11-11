@@ -116,55 +116,38 @@ class BinaryTree {
             return;
         }
 
-        // target is root
-        if (prev == nullptr) {
-            if (!cur->left && !cur->right) {
-                // no children
-                head = nullptr;
-            } else if (cur->left && !cur->right) {
-                // 1-child (left)
-                head = cur->left;
-                cur->left = nullptr;
-            } else if (!cur->left && cur->right) {
-                // 1-child (right)
-                head = cur->right;
-                cur->right = nullptr;
-            }
-            delete cur;
-            return;
-        }
-
-        // target is non-root
         if (!cur->left && !cur->right) {
             // no children
-            if (prev->left == cur) {
+            if (prev == nullptr) {
+                head = nullptr;
+            } else if (prev->left == cur) {
                 prev->left = nullptr;
             } else {
                 prev->right = nullptr;
             }
-            delete cur;
-            return;
         } else if (cur->left && !cur->right) {
             // 1-child (left)
-            if (prev->left == cur) {
+            if (prev == nullptr) {
+                head = cur->left;
+            } else if (prev->left == cur) {
                 prev->left = cur->left;
             } else {
                 prev->right = cur->left;
             }
             cur->left = nullptr;
-            delete cur;
-            return;
         } else if (!cur->left && cur->right) {
             // 1-child (right)
-            if (prev->right == cur) {
+            if (prev == nullptr) {
+                head = cur->right;
+            } else if (prev->right == cur) {
                 prev->right = cur->right;
             } else {
                 prev->left = cur->right;
             }
             cur->right = nullptr;
-            delete cur;
-            return;
         }
+
+        delete cur;
     }
 
     void print() {
