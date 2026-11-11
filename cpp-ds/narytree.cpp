@@ -1,8 +1,10 @@
 #include <iostream>
 #include <vector>
+#include <queue>
 
 using namespace std;
 
+// TreeNode
 class TreeNode {
   public:
     int data;
@@ -16,6 +18,7 @@ class TreeNode {
     }
 };
 
+// DFS: Depth-first search using recursion
 void dfs(TreeNode *node) {
     if (!node) {
         return;
@@ -28,6 +31,7 @@ void dfs(TreeNode *node) {
     }
 }
 
+// BFS: Bread-first search using a queue
 void bfs(TreeNode *node) {
     if (!node) {
         return;
