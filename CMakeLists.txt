@@ -6,7 +6,7 @@ set(CMAKE_CXX_STANDARD_REQUIRED ON)
 set(CMAKE_BUILD_TYPE Debug)
 set(CMAKE_EXPORT_COMPILE_COMMANDS ON)   # lets clangd/VS Code see your flags
 
-add_compile_options(-Wall -Wextra -fsanitize=address,undefined)
+add_compile_options(-Wall -Wextra -Wno-sign-compare -fsanitize=address,undefined)
 add_link_options(-fsanitize=address,undefined)
 
 # One executable per file in leetcode/, named after the file
