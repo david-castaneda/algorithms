@@ -1,6 +1,7 @@
 #pragma once
 
 // Common libraries needed in LeetCode style problems.
+#include <algorithm>
 #include <iostream>
 #include <queue>
 #include <unordered_map>
