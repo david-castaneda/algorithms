@@ -1,6 +1,32 @@
-Algorithms and data structures collected over time.
+Data structures, algorithms, and LeetCode solutions.
 
-## Python Examples
+## Concepts / Data Structures / Patterns
+
+- [Big O](./big_o.md)
+- Arrays & Strings
+- Hashmaps & Hashsets
+- Two Pointers
+- Binary Search
+- Linked Search
+- Stacks & Queues
+- Sliding Window
+- Recursion
+- Trees
+- Heaps / Priority Queues
+- Backtracking
+- Graphs
+- Dynamic Programming
+
+## C++
+
+- [Queues](./cpp-ds/queue.cpp)
+- [Stacks](./cpp-ds/stack.cpp)
+- [Trees](./cpp-ds/narytree.cpp)
+- [Binary Search Tree (BST)](./cpp-ds/binarytree.cpp)
+- [AVLTree](./cpp-ds/AVLTree.cpp)
+- [Heaps](./cpp-ds/heap.cpp)
+
+## Python
 
 - [Two Pointer](./arrays/two_pointer.ipynb)
 - [Sliding Window](./arrays/sliding_window.ipynb)
@@ -19,23 +45,6 @@ Algorithms and data structures collected over time.
 - [Shortest Path - Dijkstra's](https://www.geeksforgeeks.org/dsa/dijkstras-shortest-path-algorithm-greedy-algo-7/)
 - [Manhattan Distance](https://www.geeksforgeeks.org/data-science/manhattan-distance/)
 - [Boyer Moore Pattern Searching](https://www.geeksforgeeks.org/dsa/boyer-moore-algorithm-for-pattern-searching/)
-
-## Concepts / Data Structures / Patterns
-
-- Big O
-- Arrays & Strings
-- Hashmaps & Hashsets
-- Two Pointers
-- Binary Search
-- Linked Search
-- Stacks & Queues
-- Sliding Window
-- Recursion
-- Trees
-- Heaps / Priority Queues
-- Backtracking
-- Graphs
-- Dynamic Programming
 
 ## Cheat sheet
 
