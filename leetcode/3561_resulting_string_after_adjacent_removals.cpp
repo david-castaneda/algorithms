@@ -1,5 +1,7 @@
 #include <leetcode.h>
 
+// Time: O(n)
+// Space: O(n)
 class Solution {
   public:
     string resultingString(string s) {
