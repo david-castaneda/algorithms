@@ -1,7 +1,7 @@
 #include <leetcode.h>
 
-// Time: O(n + m)
-// Space: O(n + m)
+// Time: O(n)
+// Space: O(1)
 class Solution {
   public:
     ListNode *mergeTwoLists(ListNode *list1, ListNode *list2) {
