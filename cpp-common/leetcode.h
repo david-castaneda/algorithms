@@ -22,3 +22,12 @@ template <typename T> ostream &operator<<(ostream &os, const vector<T> &v) {
     }
     return os << "]";
 }
+
+// Singly-linked list node as defined by LeetCode.
+struct ListNode {
+    int val;
+    ListNode *next;
+    ListNode() : val(0), next(nullptr) {}
+    ListNode(int x) : val(x), next(nullptr) {}
+    ListNode(int x, ListNode *next) : val(x), next(next) {}
+};
